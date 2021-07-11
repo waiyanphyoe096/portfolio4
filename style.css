@@ -1,0 +1,421 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* navigation bar start */
+
+.topbox {
+    width: 100%;
+    height: 100%;
+}
+
+.topbox nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 0px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.topbox nav img {
+    height: 50px;
+}
+
+.topbox nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.topbox nav ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    font-weight: 500;
+    color: #5c5757;
+}
+
+.topbox nav ul a:hover {
+    background-color: #62929a;
+    color: #f3eded;
+    transition: 0.6s;
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.26);
+}
+
+.hey {
+    color: #5c5757;
+    border-bottom: 2px solid #62929a;
+    text-decoration: none;
+}
+
+
+/* Home Page start */
+
+.home {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.leftbox img {
+    width: 100%;
+    border: 2px dotted #f7f7cf;
+    border-radius: 50%;
+}
+
+.rightbox {
+    width: 750px;
+    background-color: brown;
+    border-radius: 10%;
+}
+
+.rightbox h5 {
+    font-size: 55px;
+    font-family: poppins;
+    font-weight: 300;
+    color: #5c5757;
+    background-color: #fff;
+    padding-left: 10px;
+}
+
+.rightbox p {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 10px;
+    color: #f7f7cf;
+}
+
+.rightbox a {
+    border: 2px solid #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    color: white;
+    background-color: #586e72;
+}
+
+.rightbox a:hover {
+    background-color: #47d0bd;
+    transition: 0.6s;
+    color: #827055;
+}
+
+
+/* Skill start */
+
+.container {
+    display: flex;
+    margin: 10px 50px 0px 70px;
+}
+
+.boxcontainer {
+    padding: 0px 30px 0px 0px;
+    margin: 0px 30px 0px 0px;
+}
+
+.skill span {
+    font-size: 30px;
+    color: #5c5757;
+}
+
+.skill h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0px 0px 20px 0px;
+    color: #38486f;
+}
+
+.skillbox {
+    display: flex;
+}
+
+.skillbox div img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #47d0bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    padding: 0px 0px 0px 20px;
+}
+
+.textbox strong {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #38486f;
+}
+
+.textbox p {
+    font-size: 0.9rem;
+}
+
+.htmlbox {
+    display: flex;
+    padding-top: 20px;
+}
+
+.htmlbox img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #47d0bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texthtml {
+    padding: 0px 0px 0px 20px;
+}
+
+.texthtml strong {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #38486f;
+}
+
+.texthtml p {
+    font-size: 0.9rem;
+}
+
+.cssbox {
+    display: flex;
+    padding-top: 20px
+}
+
+.cssbox img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #47d0bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textcss {
+    padding: 0px 0px 0px 20px;
+}
+
+.textcss strong {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #38486f;
+}
+
+.textcss p {
+    font-size: 0.9rem;
+}
+
+.rightbox1 img {
+    width: 90%;
+    padding-left: 40px;
+}
+
+
+/* recent start */
+
+.recent span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #5c5757;
+}
+
+.recent h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 200;
+    color: #38486f;
+}
+
+.recentimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.recentimage img {
+    width: 70%;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.viewdesign {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #1db096;
+    border-radius: 20px;
+    box-shadow: 4px 10px 30px rgb(24 139 119 / 20%);
+    text-decoration: none;
+}
+
+
+/* contact start */
+
+.contactbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left img {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-me h2 {
+    font-size: 30px;
+    color: #5c5757;
+    margin-top: 0px;
+    padding: 0px 0px 0px 12px;
+}
+
+.gmailbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmaillogo img {
+    height: 30px;
+}
+
+.gmailtext a {
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+.gmailtext a:hover {
+    border-bottom: 5px solid #2a5d67;
+    transition: 0.5s;
+    color: #171332;
+}
+
+.gitbox {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 12px;
+}
+
+.gitlogo img {
+    height: 30px;
+}
+
+.gittext a {
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+.gittext a:hover {
+    border-bottom: 5px solid #2a5d67;
+    transition: 0.5s;
+    color: #171332;
+}
+
+.facebox {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 12px;
+}
+
+.facelogo img {
+    height: 30px;
+}
+
+.facetext a {
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+.facetext a:hover {
+    border-bottom: 5px solid #2a5d67;
+    transition: 0.5s;
+    color: #171332;
+}
+
+.phonebox {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 12px;
+}
+
+.phonelogo img {
+    height: 30px;
+}
+
+.phonetext a {
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+.phonetext a:hover {
+    border-bottom: 5px solid #2a5d67;
+    transition: 0.5s;
+    color: #171332;
+}
+
+.adressbox {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 12px;
+}
+
+.adresslogo img {
+    height: 30px;
+}
+
+.adresstext a {
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+.adresstext a:hover {
+    border-bottom: 5px solid #2a5d67;
+    transition: 0.5s;
+    color: #171332;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+footer p {
+    font-size: 13px;
+}
